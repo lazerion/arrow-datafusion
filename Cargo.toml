@@ -16,7 +16,7 @@
 # under the License.
 
 [workspace]
-exclude = ["datafusion-cli", "datafusion/substrait"]
+exclude = ["datafusion-cli"]
 members = [
     "datafusion/common",
     "datafusion/core",
@@ -28,6 +28,7 @@ members = [
     "datafusion/row",
     "datafusion/sql",
     "datafusion/sinks",
+    "datafusion/substrait",
     "datafusion-examples",
     "test-utils",
     "parquet-test-utils",
