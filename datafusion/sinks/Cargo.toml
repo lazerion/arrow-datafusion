@@ -31,11 +31,6 @@ rust-version = "1.62"
 name = "datafusion_sinks"
 path = "src/lib.rs"
 
-[features]
-default = ["unicode_expressions"]
-unicode_expressions = []
-
-
 [dependencies]
 rdkafka = "0.29.0"
 tracing = "0.1.34"
